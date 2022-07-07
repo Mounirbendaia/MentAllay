@@ -10,6 +10,6 @@ To train the data for the relaxation strategy, we use Google Natural Language AP
 We use Firebase Database for both features. The user can create new posts for the forum, and by doing so, we build a new collection inside the firebase database, and within this collection, we create a new collection for the comments, and we update the amount of likes within the collection.
 
 # SYSTEM OUTPUT
-<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017402.png" align="left" height="736" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017402.png" align="left" height="536" width="240" ></a>
 
 
