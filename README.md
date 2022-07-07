@@ -12,7 +12,7 @@ We use Firebase Database for both features. The user can create new posts for th
 # SYSTEM OUTPUT
 
 
-![Screenshot_1655017402](https://user-images.githubusercontent.com/55817700/177790864-b296bf79-f8f2-4ff3-af05-f911d248a39c.png | width=100)
+![Screenshot_1655017402]<img src="https://user-images.githubusercontent.com/55817700/177790864-b296bf79-f8f2-4ff3-af05-f911d248a39c.png "width="200" height="400">
 ![Screenshot_1655017407](https://user-images.githubusercontent.com/55817700/177790880-7e634ab2-0b4e-4ba3-b6dc-5743edf39888.png)
 ![Screenshot_1655017412](https://user-images.githubusercontent.com/55817700/177790882-692dfbf0-5b5d-4ce5-9c8a-12b498248c39.png)
 ![Screenshot_1655017416](https://user-images.githubusercontent.com/55817700/177790886-b31d76ed-d881-41cc-b117-208b70073fd6.png)
