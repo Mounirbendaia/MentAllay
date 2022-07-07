@@ -1,0 +1,134 @@
+import React, { Component } from 'react';
+import { SafeAreaView,ScrollView,StyleSheet, Text,Image, View, TextInput, Button,TouchableOpacity, Alert, ActivityIndicator } from 'react-native';
+import { Formik } from 'formik';
+import * as Yup from 'yup';
+import {auth} from '../database/firebase';
+
+
+class ForgotPassword extends Component {
+  constructor() {
+    super();
+    this.state = { 
+      email: '', 
+      isLoading: false
+    }
+  }
+  updateInputVal = (val, prop) => {
+    const state = this.state;
+    state[prop] = val;
+    this.setState(state);
+  }
+  userLogin = () => {
+    if(this.state.email === '' && this.state.password === '') {
+      Alert.alert('Enter details to signin!')
+    } else {
+      this.setState({
+        isLoading: true,
+      })
+      auth
+      .sendPasswordResetEmail(this.state.email)
+      .then((res) => {
+        console.log(res)
+        console.log('User logged-in successfully!')
+        this.setState({
+          isLoading: false,
+          email: '', 
+        })
+        this.props.navigation.navigate('Login')
+      })
+      .catch(error => this.setState({ errorMessage: error.message }))
+    }
+  }
+
+  render() {
+    return (
+      <View style={{ flex: 1,width: '100%', resizeMode: 'contain',backgroundColor: '#59d2fa', }}>
+      <SafeAreaView styles={styles.container}>
+      <ScrollView styles={styles.scrollView}>
+      <View style={styles.container}>   
+       <Image 
+        source={require('../Image/Logo.png')}
+        style={{width:410 ,overflow: 'hidden',borderBottomLeftRadius:60, backgroundColor: 'white',alignItems: 'center',  }}
+      />
+            <Text style={{textDecorationLine: 'underline',marginTop:20 ,marginBottom:20 , fontSize: 25,fontWeight: "bold",color:'white'}}>Reset Password</Text>
+
+        <TextInput
+          style={styles.inputStyle}
+          placeholder="Email"
+          value={this.state.email}
+          onChangeText={(val) => this.updateInputVal(val, 'email')}
+        /> 
+        <TouchableOpacity
+         style={styles.buttonStyle}
+         activeOpacity={0.5}
+          onPress={() => this.userLogin()}
+        > 
+        <Text style={styles.buttonTextStyle}>Reset Password </Text>  
+        </TouchableOpacity>                 
+      </View>
+      </ScrollView>
+        </SafeAreaView> 
+        </View>
+     
+    );
+  }
+}
+
+export default ForgotPassword;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    backgroundColor: '#59d2fa',
+    paddingHorizontal: 10,
+    },
+    scrollView: {
+      
+    },
+  inputStyle: {
+    borderRadius:20,
+    backgroundColor:'white',
+    width: '60%',
+    marginBottom: 15,
+    paddingBottom: 15,
+    alignSelf: "center",
+    borderColor: "#ccc",
+    borderBottomWidth: 1,
+    paddingLeft:20,
+    paddingRight:20,
+  },
+  loginText: {
+    color: 'white',
+    marginTop: 25,
+    textAlign: 'center'
+  },
+  preloader: {
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    position: 'absolute',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#fff'
+  },
+  buttonStyle: {
+    
+    backgroundColor: 'white',
+    borderWidth: 0,
+    color: '#FFFFFF',
+    borderColor: '#7DE24E',
+    elevation: 8,
+    alignItems: 'center',
+    borderRadius: 30,
+
+  },
+  buttonTextStyle: {
+    
+    color: '#59d2fa',
+    paddingRight: 80,
+    paddingLeft:80,
+    paddingVertical: 10,
+    fontSize: 16,
+  },
+});

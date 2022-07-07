@@ -1,0 +1,103 @@
+import styled from 'styled-components';
+
+export const Container = styled.View`
+  flex: 1;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  
+`;
+
+export const Card = styled.View`
+margin-top: 10px;
+    background-color: #59d2fa;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+`;
+
+export const UserInfo = styled.View`
+   
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px;
+`;
+
+export const UserImg = styled.Image`
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+`;
+
+export const UserInfoText = styled.View`
+
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+`;
+
+export const UserName = styled.Text`
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lato-Regular';
+    margin-left: 20px;
+`;
+
+export const PostTime = styled.Text`
+color: white;
+    font-size: 10px;
+    font-family: 'Lato-Regular';
+    margin-left: 20px;
+    
+`;
+
+export const PostText = styled.Text`
+    color: white;
+    font-size: 14px;
+    font-family: 'Lato-Regular';
+    padding-left: 25px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+`;
+
+export const PostImg = styled.Image`
+
+width: 300px;
+height: 300px;
+    /* margin-top: 15px; */
+`;
+
+export const Divider = styled.View`
+
+    border-bottom-color: #dddddd;
+    border-bottom-width: 1px;
+    width: 92%;
+    align-self: center;
+    margin-top: 15px;
+`;
+
+export const InteractionWrapper = styled.View`
+
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+`;
+
+export const Interaction = styled.TouchableOpacity`
+
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: ${props => props.active ? '#2e64e515' : 'transparent'}
+`;
+
+export const InteractionText = styled.Text`
+    font-size: 12px;
+    font-family: 'Lato-Regular';
+    font-weight: bold;
+    color: ${props => props.active ? 'white' : 'white'};
+    margin-top: 5px;
+    margin-left: 5px;
+`;
