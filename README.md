@@ -11,5 +11,23 @@ We use Firebase Database for both features. The user can create new posts for th
 
 # SYSTEM OUTPUT
 <a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017402.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017407.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017412.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017416.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017451.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017483.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017488.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017494.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017498.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017514.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017525.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017533.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017584.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017592.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017689.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017695.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017705.png" align="left" height="536" width="240" ></a>
+<a href="url"><img src="https://github.com/Mounirbendaia/MentAllay/blob/main/Screenshot/Screenshot_1655017735.png" align="left" height="536" width="240" ></a>
+
 
 
